@@ -1,0 +1,28 @@
+.driver-item {
+  display: flex;
+  background-color: #171717;
+  border-radius: $spacing;
+  column-gap: $spacing * 3;
+  margin-bottom: $spacing * 1.5;
+  padding: 1.5rem;
+  position: relative;
+  .driver-data {
+    flex: 1 0 auto;
+
+    p {
+      color: $text-light-grey;
+      margin-bottom: 0.5rem;
+    }
+    span {
+      color: $color-white;
+    }
+  }
+  .driver-actions {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    .badge.bg-primary {
+      background-color: rgba(0, 0, 0, 0.56) !important;
+    }
+  }
+}

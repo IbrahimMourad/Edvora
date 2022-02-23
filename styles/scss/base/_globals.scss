@@ -1,0 +1,13 @@
+body {
+  color: $color-white;
+  footer,
+  .navbar {
+    height: 70px;
+    max-height: 70px;
+  }
+  footer {
+    background-color: $color-black;
+    text-align: center;
+    padding: 20px;
+  }
+}

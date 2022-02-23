@@ -1,0 +1,27 @@
+.select-ride {
+  font-family: 'Inter', sans-serif;
+  .nav {
+    margin-bottom: $spacing * 1.5;
+  }
+
+  .nav-link {
+    color: $color-light-black;
+    margin-right: 1rem;
+    padding-right: 0;
+    padding-left: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    &.active {
+      border-bottom: 1px solid $color-white;
+      color: $color-white;
+      font-weight: 700;
+    }
+  }
+  .loader {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
